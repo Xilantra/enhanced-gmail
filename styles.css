@@ -1,0 +1,147 @@
+/* 
+  The new Gmail UI enhancement
+  @xilantra
+  https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
+  https://github.com/Xilantra/enhanced-gmail
+  Last updated: September 29 2022
+*/
+
+/* Search bar dark mode */
+.gb_Ac .gb_Se {
+    background: #000 !important;
+}
+
+/* Search bar dark mode input text */
+.gb_Ac .gb_df {
+  color: rgb(226, 226, 226) !important
+}
+
+/* Search bar: Dark mode */
+.gb_Ac .gb_df,
+/* Search bar: Light mode */
+#gb .gb_df {
+  text-align:center;
+}
+
+/* Search bar light mode */
+form.aJf {
+    background-color: #ffffff !important;
+}
+
+/* Search bar */
+.gb_Ud.gb_Ne .gb_Ee .gb_Se {
+  margin: 0 auto !important;
+}
+
+/* The setting icon on light mode */
+header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Pd) svg {
+  color: #001d35 !important;
+}
+
+.gb_Ud.gb_Ne .gb_Se button,
+.Yb.dIH7rb, [data-tooltip="Settings"] {opacity: 0.6;}
+.gb_Ud.gb_Ne .gb_Se button:hover,
+.Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {opacity: 1;}
+
+/* Right side panel */
+.brC-dA-I.aT5-aOt-I-Jp,
+/* Left side bar button dark mode */
+/* .WR.aeN, */
+.aeN.WR.a6o.anZ.nH.oy8Mbf,
+/* Active text */
+.Yc,
+/* Support */
+.zo,
+/* Google Apps icon */
+.gb_Vd.gb_Xa.gb_Kd.gb_Zd .gb_Sc {
+  display: none !important;
+}
+
+/* Right side panel light mode */
+/* .nH.aUx {
+  width: 0 !important;
+  min-width: 0 !important;
+} */
+
+/* Compose Button Design 1: Long button */
+/* Comment this if you want to use Design 2 */
+.z0>.L3 {
+  width: 100%;
+  margin-right: 12px !important;
+}
+
+/* Compose Button Design 2: Rounded */
+/* Uncomment this if you want to use Design 2 */
+/* .z0>.L3 {
+  font-size: 0 !important;
+  padding-right: 4px !important;
+  border-radius: 50% !important;
+} */
+
+/* Compose Button default */
+.z0>.L3 {
+  transform: scale(1) translateY(0px);
+}
+
+/* Compose Button default */
+.z0>.L3:hover {
+  transform: scale(1.05);
+}
+
+/* Top nav items */
+.gb_Ud {
+  transform: translateY(8px);
+}
+
+/* .gb_Ac:hover .gb_Sc  */
+#gb:hover .gb_Ud {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+/* The top right Setting & Status icons */
+.gb_qe.gb_oe {
+    min-width: 118px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Main frame */
+/* .bkK {
+  margin-right: 16px !important;
+} */
+
+/* Light mode main frame: opened */
+.bhZ+.bkK {
+    margin-left: 16px !important;
+}
+
+/* Top nav items */
+.gb_Ud,
+/* Google Apps */
+/* .gb_Sc  */
+/* Light mode left sidebar */
+.aeN.WR.nH.oy8Mbf.bhZ {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Top bar icons */
+.nH.aUx,
+.gb_Ud.gb_Ne .gb_Se button,
+.Yb.dIH7rb,
+[data-tooltip="Settings"],
+/* Compose Button default */
+.z0>.L3,
+/* Top nav items */
+.gb_Ud,
+/* Google Apps */
+.gb_Sc,
+/* Light mode main frame */
+.bhZ+.bkK,
+.bkK {
+  transition: all .24s ease-in-out;
+}
+
