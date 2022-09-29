@@ -34,14 +34,18 @@ form.aJf {
 }
 
 /* The setting icon on light mode */
-header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Pd) svg {
+header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
   color: #001d35 !important;
 }
 
 .gb_Ud.gb_Ne .gb_Se button,
-.Yb.dIH7rb, [data-tooltip="Settings"] {opacity: 0.6;}
+.Yb.dIH7rb, [data-tooltip="Settings"] {
+  opacity: 0.6;
+}
 .gb_Ud.gb_Ne .gb_Se button:hover,
-.Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {opacity: 1;}
+.Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {
+  opacity: 1;
+}
 
 /* Right side panel */
 .brC-dA-I.aT5-aOt-I-Jp,
@@ -108,6 +112,23 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Pd) svg {
     align-items: center;
 }
 
+/* Mail item list dark mode */
+.ae4.aTP.aDM.nH.oy8Mbf .zA:hover,
+/* Mail item list light mode */
+.ae4.aDM.nH.oy8Mbf .zA:hover {
+    box-shadow: none !important;
+}
+
+/* Mail item list dark mode */
+.ae4.aTP.aDM.nH.oy8Mbf .zA:hover {
+    background-color: #111111;
+}
+
+/* Mail item list light mode */
+.ae4.aDM.nH.oy8Mbf .zA:hover {
+    background-color: #e4e4e4;
+}
+
 /* Main frame */
 /* .bkK {
   margin-right: 16px !important;
@@ -141,7 +162,9 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Pd) svg {
 .gb_Sc,
 /* Light mode main frame */
 .bhZ+.bkK,
-.bkK {
+.bkK,
+/* Mail item list */
+.zA {
   transition: all .24s ease-in-out;
 }
 
