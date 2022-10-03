@@ -3,7 +3,7 @@
   @xilantra
   https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: September 29 2022
+  Last updated: Oct 03 2022
 */
 
 /* Search bar dark mode */
@@ -120,13 +120,18 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Mail item list dark mode */
-.ae4.aTP.aDM.nH.oy8Mbf .zA:hover {
+.ae4.aTP.aDM.nH.oy8Mbf .zA.zE:hover {
     background-color: #111111;
 }
 
 /* Mail item list light mode */
-.ae4.aDM.nH.oy8Mbf .zA:hover {
+.ae4.aDM.nH.oy8Mbf:not(.Nu.tf.aZ6 .ae4.aDM.nH.oy8Mbf) .zA:hover {
     background-color: #e4e4e4;
+}
+
+/* Mail item read (Everything Else) list dark mode */
+.Nu.tf.aZ6 .ae4.aDM.nH.oy8Mbf .zA.yO:hover {
+  background-color: #2c2c2c;
 }
 
 /* Main frame */
