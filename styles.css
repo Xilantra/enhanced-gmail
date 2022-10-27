@@ -3,24 +3,38 @@
   @xilantra
   https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: Oct 03 2022
+  Last updated: Oct 27 2022
 */
 
 /* Search bar dark mode */
-.gb_Ac .gb_Se {
+header.gb_pa.gb_2a.gb_Re.gb_5.gb_Nc .gb_Te {
     background: #000 !important;
 }
 
 /* Search bar dark mode input text */
-.gb_Ac .gb_df {
+header[role="banner"] .gb_ef {
   color: rgb(226, 226, 226) !important
 }
 
 /* Search bar: Dark mode */
-.gb_Ac .gb_df,
+header[role="banner"] .gb_ef,
 /* Search bar: Light mode */
-#gb .gb_df {
+#gb .gb_ef {
   text-align:center;
+}
+
+/* Search bar: Dark mode */
+header[role="banner"] .gb_ef:focus,
+/* Search bar: Light mode */
+#gb .gb_ef:focus,
+/* Text suggestion input */
+input#gs_taif50 {
+  text-align: left !important;
+}
+
+/* Text suggestion input */
+input#gs_taif50 {
+  opacity: 0.4;
 }
 
 /* Search bar light mode */
@@ -29,7 +43,7 @@ form.aJf {
 }
 
 /* Search bar */
-.gb_Ud.gb_Ne .gb_Ee .gb_Se {
+.nH .qp .aJf[method="get"][role="search"] {
   margin: 0 auto !important;
 }
 
@@ -38,11 +52,11 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
   color: #001d35 !important;
 }
 
-.gb_Ud.gb_Ne .gb_Se button,
+.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le .gb_Se button,
 .Yb.dIH7rb, [data-tooltip="Settings"] {
   opacity: 0.6;
 }
-.gb_Ud.gb_Ne .gb_Se button:hover,
+.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le .gb_Se button:hover,
 .Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {
   opacity: 1;
 }
@@ -57,6 +71,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 /* Support */
 .zo,
 /* Google Apps icon */
+[aria-label="Google apps"],
 .gb_Vd.gb_Xa.gb_Kd.gb_Zd .gb_Sc {
   display: none !important;
 }
@@ -93,12 +108,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_Ud {
+.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le {
   transform: translateY(8px);
 }
 
-/* .gb_Ac:hover .gb_Sc  */
-#gb:hover .gb_Ud {
+/* header[role="banner"]:hover .gb_Sc  */
+#gb:hover .gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le {
   opacity: 1;
   visibility: visible;
   transform: translateY(0px);
@@ -145,7 +160,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_Ud,
+.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le,
 /* Google Apps */
 /* .gb_Sc  */
 /* Light mode left sidebar */
@@ -162,7 +177,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 /* Compose Button default */
 .z0>.L3,
 /* Top nav items */
-.gb_Ud,
+.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le,
 /* Google Apps */
 .gb_Sc,
 /* Light mode main frame */
