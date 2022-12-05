@@ -3,11 +3,20 @@
   @xilantra
   https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: Oct 27 2022
+  Last updated: Dec 05 2022
 */
 
+
+/* Search bar light mode */
+form.aJf {
+    background-color: #ffffff !important;
+}
+
 /* Search bar dark mode */
-header.gb_pa.gb_2a.gb_Re.gb_5.gb_Nc .gb_Te {
+/* lg */
+header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Ud #aso_search_form_anchor,
+/* xl */
+header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Rc #aso_search_form_anchor {
     background: #000 !important;
 }
 
@@ -37,10 +46,6 @@ input#gs_taif50 {
   opacity: 0.4;
 }
 
-/* Search bar light mode */
-form.aJf {
-    background-color: #ffffff !important;
-}
 
 /* Search bar */
 .nH .qp .aJf[method="get"][role="search"] {
@@ -52,11 +57,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
   color: #001d35 !important;
 }
 
-.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le .gb_Se button,
-.Yb.dIH7rb, [data-tooltip="Settings"] {
+.gb_Pd.gb_0d.gb_Se.gb_Ie [aria-label="Advanced search options"],
+.Yb.dIH7rb,
+[data-tooltip="Settings"] {
   opacity: 0.6;
 }
-.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le .gb_Se button:hover,
+.gb_Pd.gb_0d.gb_Se.gb_Ie [aria-label="Advanced search options"]:hover,
 .Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {
   opacity: 1;
 }
@@ -108,19 +114,20 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le {
+.gb_Pd.gb_0d.gb_Se.gb_Ie {
   transform: translateY(8px);
 }
 
 /* header[role="banner"]:hover .gb_Sc  */
-#gb:hover .gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le {
+#gb:hover .gb_Pd.gb_0d.gb_Se.gb_Ie {
   opacity: 1;
   visibility: visible;
   transform: translateY(0px);
 }
 
 /* The top right Setting & Status icons */
-.gb_qe.gb_oe {
+.gb_qe.gb_oe,
+.gb_ve.gb_te {
     min-width: 118px;
     display: flex;
     justify-content: end;
@@ -160,7 +167,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le,
+.gb_Pd.gb_0d.gb_Se.gb_Ie,
 /* Google Apps */
 /* .gb_Sc  */
 /* Light mode left sidebar */
@@ -173,11 +180,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 .nH.aUx,
 .gb_Ud.gb_Ne .gb_Se button,
 .Yb.dIH7rb,
+[aria-label="Advanced search options"],
 [data-tooltip="Settings"],
 /* Compose Button default */
 .z0>.L3,
 /* Top nav items */
-.gb_Ld.gb_Vd.gb_Oe.gb_De.gb_Le,
+.gb_Pd.gb_0d.gb_Se.gb_Ie,
 /* Google Apps */
 .gb_Sc,
 /* Light mode main frame */
