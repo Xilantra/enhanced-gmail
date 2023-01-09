@@ -3,39 +3,47 @@
   @xilantra
   https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: Dec 05 2022
+  Last updated: Jan 10 2022
 */
 
 
 /* Search bar light mode */
-form.aJf {
+/* form.aJf */
+/* lg */
+header.gb_Ca.gb_5a.gb_Ue.gb_Qc #aso_search_form_anchor,
+/* xl */
+header.gb_Ca.gb_5a.gb_Ue.gb_Td #aso_search_form_anchor
+ {
     background-color: #ffffff !important;
 }
 
 /* Search bar dark mode */
 /* lg */
-header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Ud #aso_search_form_anchor,
+header.gb_Ca.gb_5a.gb_Ue.gb_5.gb_Td #aso_search_form_anchor,
+/* header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Ud #aso_search_form_anchor, */
 /* xl */
-header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Rc #aso_search_form_anchor {
+header.gb_Ca.gb_5a.gb_Ue.gb_5.gb_Qc #aso_search_form_anchor
+/* header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Rc #aso_search_form_anchor  */
+{
     background: #000 !important;
 }
 
 /* Search bar dark mode input text */
-header[role="banner"] .gb_ef {
+header[role="banner"] [placeholder="Search in mail"] {
   color: rgb(226, 226, 226) !important
 }
 
 /* Search bar: Dark mode */
-header[role="banner"] .gb_ef,
+header[role="banner"] [placeholder="Search in mail"],
 /* Search bar: Light mode */
-#gb .gb_ef {
+#gb [placeholder="Search mail"] {
   text-align:center;
 }
 
 /* Search bar: Dark mode */
-header[role="banner"] .gb_ef:focus,
+header[role="banner"] [placeholder="Search in mail"]:focus,
 /* Search bar: Light mode */
-#gb .gb_ef:focus,
+#gb [placeholder="Search in mail"]:focus,
 /* Text suggestion input */
 input#gs_taif50 {
   text-align: left !important;
@@ -57,12 +65,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
   color: #001d35 !important;
 }
 
-.gb_Pd.gb_0d.gb_Se.gb_Ie [aria-label="Advanced search options"],
+.gb_Od.gb_Zd.gb_Re.gb_He [aria-label="Advanced search options"],
 .Yb.dIH7rb,
 [data-tooltip="Settings"] {
   opacity: 0.6;
 }
-.gb_Pd.gb_0d.gb_Se.gb_Ie [aria-label="Advanced search options"]:hover,
+.gb_Od.gb_Zd.gb_Re.gb_He [aria-label="Advanced search options"]:hover,
 .Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {
   opacity: 1;
 }
@@ -114,12 +122,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_Pd.gb_0d.gb_Se.gb_Ie {
+.gb_Od.gb_Zd.gb_Re.gb_He {
   transform: translateY(8px);
 }
 
 /* header[role="banner"]:hover .gb_Sc  */
-#gb:hover .gb_Pd.gb_0d.gb_Se.gb_Ie {
+#gb:hover .gb_Od.gb_Zd.gb_Re.gb_He {
   opacity: 1;
   visibility: visible;
   transform: translateY(0px);
@@ -167,7 +175,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_Pd.gb_0d.gb_Se.gb_Ie,
+.gb_Od.gb_Zd.gb_Re.gb_He,
 /* Google Apps */
 /* .gb_Sc  */
 /* Light mode left sidebar */
@@ -185,7 +193,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 /* Compose Button default */
 .z0>.L3,
 /* Top nav items */
-.gb_Pd.gb_0d.gb_Se.gb_Ie,
+.gb_Od.gb_Zd.gb_Re.gb_He,
 /* Google Apps */
 .gb_Sc,
 /* Light mode main frame */
@@ -195,4 +203,3 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 .zA {
   transition: all .24s ease-in-out;
 }
-
