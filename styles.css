@@ -3,7 +3,7 @@
   @xilantra
   https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: Jan 27 2022
+  Last updated: Apr 18 2023
 */
 
 
@@ -65,12 +65,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
   color: #001d35 !important;
 }
 
-/* .gb_Od.gb_Zd */.gb_Re.gb_He [aria-label="Advanced search options"],
+/* .gb_Od.gb_Zd */.gb_ue.gb_ke [aria-label="Advanced search options"],
 .Yb.dIH7rb,
 [data-tooltip="Settings"] {
   opacity: 0.6;
 }
-/* .gb_Od.gb_Zd */.gb_Re.gb_He [aria-label="Advanced search options"]:hover,
+/* .gb_Od.gb_Zd */.gb_ue.gb_ke [aria-label="Advanced search options"]:hover,
 .Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {
   opacity: 1;
 }
@@ -122,12 +122,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-/* .gb_Od.gb_Zd */.gb_Re.gb_He {
+/* .gb_Od.gb_Zd */.gb_ue.gb_ke {
   transform: translateY(8px);
 }
 
 /* header[role="banner"]:hover .gb_Sc  */
-#gb:hover /* .gb_Od.gb_Zd */.gb_Re.gb_He {
+#gb:hover /* .gb_Od.gb_Zd */.gb_ue.gb_ke {
   opacity: 1;
   visibility: visible;
   transform: translateY(0px);
@@ -175,7 +175,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-/* .gb_Od.gb_Zd */.gb_Re.gb_He,
+/* .gb_Od.gb_Zd */.gb_ue.gb_ke,
 /* Google Apps */
 /* .gb_Sc  */
 /* Light mode left sidebar */
@@ -193,7 +193,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 /* Compose Button default */
 .z0>.L3,
 /* Top nav items */
-/* .gb_Od.gb_Zd */.gb_Re.gb_He,
+/* .gb_Od.gb_Zd */.gb_ue.gb_ke,
 /* Google Apps */
 .gb_Sc,
 /* Light mode main frame */
