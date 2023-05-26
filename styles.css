@@ -1,28 +1,27 @@
 /* 
   The new Gmail UI enhancement
   @xilantra
-  https://arc.net/e/F45B80FE-D31F-499E-8968-53EA033F73F4
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: Apr 18 2023
+  Last updated: May 26 2023
 */
 
 
 /* Search bar light mode */
 /* form.aJf */
 /* lg */
-/* header.gb_Ca.gb_5a.gb_Ue.gb_Qc #aso_search_form_anchor, */
+header.gb_nd.gb_ud #aso_search_form_anchor,
 /* xl */
-header.gb_xe.gb_Uc #aso_search_form_anchor
+header.gb_Ia.gb_ab.gb_Zd.gb_kd.gb_nd.gb_Wc:not(.gb_i) #aso_search_form_anchor
  {
     background-color: #ffffff !important;
 }
 
 /* Search bar dark mode */
 /* lg */
-header.gb_g.gb_wd #aso_search_form_anchor,
+header.gb_i.gb_kd.gb_nd.gb_ud #aso_search_form_anchor,
 /* header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Ud #aso_search_form_anchor, */
 /* xl */
-header.gb_g.gb_Uc #aso_search_form_anchor
+header.gb_i.gb_kd.gb_nd.gb_Wc #aso_search_form_anchor
 /* header.gb_ua.gb_6a.gb_Ve.gb_aa.gb_Rc #aso_search_form_anchor  */
 {
     background: #000 !important;
@@ -43,6 +42,7 @@ header[role="banner"] [placeholder="Search in mail"],
 /* Search bar: Dark mode */
 header[role="banner"] [placeholder="Search in mail"]:focus,
 /* Search bar: Light mode */
+#gb [placeholder="Search mail"]:focus,
 #gb [placeholder="Search in mail"]:focus,
 /* Text suggestion input */
 input#gs_taif50 {
@@ -65,13 +65,19 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
   color: #001d35 !important;
 }
 
-/* .gb_Od.gb_Zd */.gb_ue.gb_ke [aria-label="Advanced search options"],
+.Yb.dIH7rb.bax {
+  background-color: transparent !important;
+}
+
+[aria-label="Advanced search options"],
 .Yb.dIH7rb,
 [data-tooltip="Settings"] {
   opacity: 0.6;
 }
-/* .gb_Od.gb_Zd */.gb_ue.gb_ke [aria-label="Advanced search options"]:hover,
-.Yb.dIH7rb:hover, [data-tooltip="Settings"]:hover {
+
+[aria-label="Advanced search options"]:hover,
+.Yb.dIH7rb:hover,
+[data-tooltip="Settings"]:hover {
   opacity: 1;
 }
 
@@ -122,12 +128,12 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-/* .gb_Od.gb_Zd */.gb_ue.gb_ke {
+.gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e {
   transform: translateY(8px);
 }
 
 /* header[role="banner"]:hover .gb_Sc  */
-#gb:hover /* .gb_Od.gb_Zd */.gb_ue.gb_ke {
+#gb:hover .gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e {
   opacity: 1;
   visibility: visible;
   transform: translateY(0px);
@@ -150,18 +156,21 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Mail item list dark mode */
-.ae4.aTP.aDM.nH.oy8Mbf .zA.zE:hover {
-    background-color: #111111;
+.ae4.aTP.aDM.nH.oy8Mbf .zA.zE.aqw
+/* .ae4.aTP.aDM.nH.oy8Mbf .zA.zE.aqw:hover  */
+{
+    background-color: #111111 !important;
 }
 
 /* Mail item list light mode */
-.ae4.aDM.nH.oy8Mbf:not(.Nu.tf.aZ6 .ae4.aDM.nH.oy8Mbf) .zA:hover {
-    background-color: #e4e4e4;
+.ae4.aDM.nH.oy8Mbf:not(.Nu.tf.aZ6 .ae4.aDM.nH.oy8Mbf) .zA.yO.aqw,
+.ae4.aDM.nH.oy8Mbf:not(.Nu.tf.aZ6 .ae4.aDM.nH.oy8Mbf) .zA.zE.aqw {
+    background-color: #dfdfdf !important;
 }
 
 /* Mail item read (Everything Else) list dark mode */
 .Nu.tf.aZ6 .ae4.aDM.nH.oy8Mbf .zA.yO:hover {
-  background-color: #2c2c2c;
+  background-color: #2c2c2c !important;
 }
 
 /* Main frame */
@@ -175,7 +184,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-/* .gb_Od.gb_Zd */.gb_ue.gb_ke,
+.gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e,
 /* Google Apps */
 /* .gb_Sc  */
 /* Light mode left sidebar */
@@ -193,7 +202,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 /* Compose Button default */
 .z0>.L3,
 /* Top nav items */
-/* .gb_Od.gb_Zd */.gb_ue.gb_ke,
+.gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e,
 /* Google Apps */
 .gb_Sc,
 /* Light mode main frame */
