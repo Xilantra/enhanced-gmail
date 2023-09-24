@@ -205,9 +205,6 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 .gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e,
 /* Google Apps */
 .gb_Sc,
-/* Light mode main frame */
-.bhZ+.bkK,
-.bkK,
 /* Mail item list */
 .zA {
   transition: all .24s ease-in-out;
