@@ -1,8 +1,8 @@
 /* 
-  The new Gmail UI enhancement
+  Gmail UI enhancement
   @xilantra
   https://github.com/Xilantra/enhanced-gmail
-  Last updated: May 26 2023
+  Last updated: Aug 13 2025
 */
 
 
@@ -128,11 +128,13 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
-.gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e {
+.gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e,
+#aso_search_form_anchor:has([aria-label="Close\ search"] svg) {
   transform: translateY(8px);
 }
 
 /* header[role="banner"]:hover .gb_Sc  */
+header[role="banner"]:hover #aso_search_form_anchor:has([aria-label="Close\ search"] svg),
 #gb:hover .gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e {
   opacity: 1;
   visibility: visible;
@@ -184,6 +186,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 }
 
 /* Top nav items */
+#aso_search_form_anchor:has([aria-label="Close\ search"] svg),
 .gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e,
 /* Google Apps */
 /* .gb_Sc  */
@@ -203,6 +206,7 @@ header.gb_oa.gb_1a.gb_Qe.gb_Mc:not(header.gb_oa.gb_1a.gb_Qe.gb_4.gb_Mc) svg {
 .z0>.L3,
 /* Top nav items */
 .gb_pd.gb_zd.gb_Ie.gb_Ue.gb_0e,
+#aso_search_form_anchor:has([aria-label="Close\ search"] svg),
 /* Google Apps */
 .gb_Sc,
 /* Light mode main frame */
